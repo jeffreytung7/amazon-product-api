@@ -1,3 +1,13 @@
+# Forked version
+
+This is my forked version with a couple bug fixes, since the original doesnt seem to be maintained anymore
+
+Notes: if you ever find something isn't working, try console logging Amazon.js. In particular, the `grabProduct` function for example `console.log('test', titleThumbnailSearch.attribs)`.
+
+Then push changes and in the main project `npm uninstall` and `npm i` to get the updated package. You can also just console log directly in node_modules in the main project, which is probably easier.
+
+Most of the time it's best to just wait a few minutes and try again if you aren't getting a good result, as maybe Amazon is bugging out.
+
 # Amazon Product Api (Unofficial)
 
 ![NPM](https://img.shields.io/npm/l/amazon-buddy.svg?style=for-the-badge) ![npm](https://img.shields.io/npm/v/amazon-buddy.svg?style=for-the-badge)
